@@ -1,0 +1,70 @@
+.container-1, .container-2, .container-3, .container-4, .container-5{
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color,
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+  background: url(https://t4.ftcdn.net/jpg/03/62/05/31/360_F_362053188_oQ0WRHCFkIY4QlXS1S5d1i9bpYup67ll.jpg);
+  color: white;
+}
+
+.flex-blackjack-row-1 div{
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  height: 350px;
+  flex:1 ;
+}
+
+.flex-blackjack-row-2 button{
+  border: 1px solid;
+  padding: 10px;
+}
+
+table, td, th{
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+.flex-box-container-1 div{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.flex-box-container-2 img{
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+  margin: 20px;
+}
+
+.flex-box-rps img{
+  width: 100px;
+  height: 100px;
+  
+}
+
+.flex-box-rps img:hover{
+  box-shadow: 0px 10px 30px rgba(235, 81, 222, 0.7);
+}
+
+.flex-box-rps h2{
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+
+
